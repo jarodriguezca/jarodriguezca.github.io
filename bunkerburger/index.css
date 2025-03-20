@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  background-image: url(fondo1.png);
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-attachment: fixed;
+ }
+ body {
+     font-family: 'Orbitron', sans-serif;
+     color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+ }
+.body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh; /* Para centrar verticalmente */
+     margin: 0;
+ }
+
+ .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(231, 76, 60, 0.9), 0 0 30px rgba(231, 76, 60, 0.7);
+    text-align: center;
+    width: 400px;
+ }
+.content {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 20vh; /* Altura del viewport */
+    margin: 20px; /* Elimina el margen por defecto */
+    text-align: center; /* Centra el texto dentro de los elementos */
+    color: #ffffff;
+    backdrop-filter: blur(5px);
+}
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+    color: black;
+}
+main {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    font-size: 16px;
+    outline: none;
+}
+a {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #e74c3c;
+    color: #e74c3c;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #e74c3c;
+    box-shadow: 0 0 20px rgba(231, 76, 60, 0.9), 0 0 30px rgba(231, 76, 60, 0.7);;
+}
+
+
+ .boton {
+   padding: 12px;
+   border: 2px solid #00ffff;
+   background: black;
+   color: #e74c3c;
+   font-size: 25px;
+   cursor: pointer;
+   transition: 0.3s;
+   animation: glow 1.5s infinite alternate;
+ }
+
+ .boton:hover {
+   background: #e74c3c;
+   color: black;
+ }
