@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: black; /* Establece el color de fondo a negro */
+    color: white; /* Cambia el color del texto a blanco para mejorar la legibilidad */
+    font-family: Arial, Helvetica; /* Fuente opcional */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 20px; /* Agrega un poco de espacio interno */
+
+}
+
+header {
+    background-color: black; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.9), 0 0 30px rgba(52, 152, 219, 0.7);}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado en la lista */
+}
+
+nav ul li {
+    display: inline; /* Mostrar elementos en línea */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+.uli {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(231, 76, 60, 0.9), 0 0 30px rgba(231, 76, 60, 0.7);
+  }
+.uul {
+  font-size: 24px;
+  text-transform: full-width;
+  text-shadow: 0 0 20px rgba(52, 152, 219, 0.9), 0 0 30px rgba(52, 152, 219, 0.7);
+}
+.responsive-image {
+    width: 100%; /* La imagen se ajusta al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+.container {
+    padding: 80px; /* Espaciado interno */
+    border-radius: 50px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(231, 76, 60, 0.9), 0 0 30px rgba(231, 76, 60, 0.7); /* Sombra sutil */
+    background-image: url(img.jpg);
+    background-size: cover; /* Asegurar que la imagen cubra todo el div */
+    background-position: center; /* Centrar la imagen */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.whatsapp-button {
+     display: flex;
+     align-items: center;
+     background-color: #25D366; /* Color de fondo de WhatsApp */
+     color: white;
+     max-width: 150px;
+     padding: 10px 20px;
+     border-radius: 50px;
+     text-decoration: none;
+     font-size: 25px;
+     transition: background-color 0.3s;
+     justify-content: center;
+     box-shadow: 0 0 20px rgba(46, 204, 113, 0.9), 0 0 30px rgba(46, 204, 113, 0.7);
+ }
+
+ .whatsapp-button img {
+     width: 25px; /* Ajusta el tamaño del ícono */
+     margin-right: 5px; /* Espacio entre el ícono y el texto */
+ }
+
+ .whatsapp-button:hover {
+     background-color: #128C7E;
+ }
+ /*.cuadros {
+     display: grid;
+     grid-template-rows: repeat(1, 250px); /* Ocho filas de 100px de altura */
+     gap: 20px; /* Espacio entre los cuadros */
+ }
+
+ .item {
+     background-color: black; /* Color de fondo */
+     color: white; /* Color del texto */
+     display: flex;
+     justify-content: center; /* Centra horizontalmente */
+     align-items: center; /* Centra verticalmente */
+     border-radius: 50px; /* Esquinas redondeadas */
+     transition: transform 0.2s, transform: scale(1.1); ;
+     box-shadow: 0 0 20px rgba(233, 30, 99, 0.9), 0 0 30px rgba(233, 30, 99, 0.7);
+ }
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.9), 0 0 30px rgba(52, 152, 219, 0.7);
+}
+
+.accordion-header {
+    background-color: black;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+
+}
+
+.accordion-header:hover {
+    background-color: #3f51b5;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 20px rgba(231, 76, 60, 0.9), 0 0 30px rgba(231, 76, 60, 0.7);
+
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none; /* Esconde el contenido por defecto */
+    background-color: black;
+}
+
+.titulo2{
+  background-color: black; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espaciado interno */
+  text-align: center; /* Centrar el texto */
+  box-shadow: 0 0 20px rgba(63, 81, 181, 0.9), 0 0 30px rgba(63, 81, 181, 0.7);
+  border-radius: 50px;
+  text-shadow: 0 0 20px rgba(231, 76, 60, 0.9), 0 0 30px rgba(231, 76, 60, 0.7);
+}
+
+.titulos{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  text-shadow: 0 0 20px rgba(52, 152, 219, 0.9), 0 0 30px rgba(52, 152, 219, 0.7);
+}
+
+section {
+    margin: 20px 0;
+    color: white;
+
+}
+
+article {
+    background: black;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(63, 81, 181, 0.9), 0 0 30px rgba(63, 81, 181, 0.7);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.coln {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex; /* Establece un contenedor flexible */
+
+}
+
+.col {
+    gap: 20px;
+    flex: 1; /* Todas las columnas ocuparán el mismo espacio */
+    padding: 10px; /* Espaciado interno */
+    background-color: black; /* Color de fondo de las columnas */
+    color: white; /* Color del texto */
+    text-align: center;
+    border-radius: 50px; /* Esquinas redondeadas */
+    box-shadow: 0 0 20px rgba(63, 81, 181, 0.9), 0 0 30px rgba(63, 81, 181, 0.7);
+    text-shadow: 0 0 20px rgba(233, 30, 99, 0.9), 0 0 30px rgba(233, 30, 99, 0.7);
+}
+.intro{
+  background-color: black; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espaciado interno */
+  text-align: center; /* Centrar el texto */
+  box-shadow: 0 0 20px rgba(63, 81, 181, 0.9), 0 0 30px rgba(63, 81, 181, 0.7);
+  border-radius: 50px;
+  text-shadow: 0 0 20px rgba(52, 152, 219, 0.9), 0 0 30px rgba(52, 152, 219, 0.7);
+}
